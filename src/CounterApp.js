@@ -10,9 +10,17 @@ class CounterApp extends Component {
     render() {
         return (
             <div>
-                <button onClick={this.handleIncrement}>Increment</button>
-                <p>{this.props.counter}</p>
-                <button onClick={this.handleDecrement}>Decrement</button>
+                <div>
+                    <p className="counterLabel">{this.props.counter}</p>
+                </div>
+                <div>
+                    <div>
+                        <button className="boxButton" onClick={this.handleIncrement}></button>
+                    </div>
+                    <div>
+                        <button className="boxButton" onClick={this.handleDecrement}></button>
+                    </div>
+                </div>
             </div>
         );
     }

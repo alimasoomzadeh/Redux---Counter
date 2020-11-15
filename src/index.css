@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.boxButton{
+  width: 101px;
+  height: 50px;
+  border: 0;
+  background-color: #ff000000;
+  cursor: pointer;
+}
+
+.counterLabel{
+  position: absolute;
+  font-size: 63px;
+  text-align: center;
+  top: -60px;
+  color: white;
+  background: red;
+  width: 101px;
+  height: 101px;
+  z-index: -1;
+}
