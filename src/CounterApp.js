@@ -9,7 +9,7 @@ class CounterApp extends Component {
 
     render() {
         return (
-            <div>
+            <div className="devCenter">
                 <div>
                     <p className="counterLabel">{this.props.counter}</p>
                 </div>

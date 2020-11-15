@@ -14,6 +14,11 @@ code {
 
 
 
+.devCenter{
+  margin: auto;
+  width: 7%;
+}
+
 .boxButton{
   width: 101px;
   height: 50px;
@@ -32,4 +37,5 @@ code {
   width: 101px;
   height: 101px;
   z-index: -1;
+  border-radius: 8px;
 }
